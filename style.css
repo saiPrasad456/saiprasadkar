@@ -1,0 +1,145 @@
+/*body{
+    background-color:white;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+h1{
+    color: #56a5eb;
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+}
+
+.container{
+    width: 100vw;
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    max-width: 80rem;
+    margin: auto 0;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+    
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #56a5eb;
+    background-color: white;
+
+}.btn:hover{
+    cursor: pointer;
+    color: white;
+   background-color: #56a5eb;
+    transform:translate(-0.1rem);
+    transition: transform 150ms;
+}
+.btn[disabled]hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}*/
+
+body {
+    background-color: #d4d4db; /* Light gray background for better contrast */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Slightly darker text color for better readability */
+}
+
+h1 {
+    color: #56a5eb;
+    font-size: 4.8rem; /* Adjusted font size for better balance */
+    margin-bottom: 4rem; /* Adjusted margin for spacing */
+    text-align: center; /* Center align heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: auto ;
+    padding: 2rem; /* Added padding for spacing */
+    
+   
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.6rem; /* Slightly smaller font size for better proportion */
+    padding: 1rem 2rem; /* Increased horizontal padding */
+    width: auto; /* Allow buttons to resize based on content */
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #56a5eb;
+    background-color: white;
+    border-radius: 0.5rem; /* Rounded corners for a modern look */
+    transition: background-color 200ms ease, transform 200ms ease, box-shadow 200ms ease; /* Smooth transitions */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #56a5eb; /* Consistent color change on hover */
+    transform: translateY(-0.2rem); /* Slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    background-color: #e0e0e0; /* Light grey background for disabled state */
+    color: #a0a0a0; /* Grey text for disabled state */
+    border-color: #b0b0b0; /* Grey border for disabled state */
+    box-shadow: none;
+    transform: none; /* No hover effect for disabled buttons */
+}
